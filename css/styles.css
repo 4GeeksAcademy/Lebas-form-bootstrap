@@ -1,0 +1,52 @@
+.bg-secondary {
+       color: #fff;
+  }
+  .form-check-input:checked {
+    background-color: #6c757d !important;
+    border-color: #6c757d !important;
+}
+
+.form-check-input:after {
+background-color: black !important;
+}
+
+.card-footer {
+  display: inline;
+}
+/* * {
+	border: 1px dashed red;
+	min-height: 10px;
+} */
+.bank-cards {
+  padding-left: calc(var(--bs-gutter-x)* .6) !important;
+}
+.card {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+form, .alert {
+  margin-left: 15px !important;
+  margin-right: 1.4em !important;
+}
+
+.form-check-input {
+  background-color: #dedede !important;
+  width: 0.7em !important;
+  height: 0.7em !important;
+  margin-top: 0.5em !important;
+}
+
+.form-check .form-check-input {
+   margin-left: -1em !important;
+}
+
+#dollar::before {
+  content: "$ ";
+  position: absolute;
+  top: 10.5em;
+  font-weight: bold;
+}
+
+input#amount.form-control {
+  margin-left: 11px;
+  }

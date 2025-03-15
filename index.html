@@ -46,17 +46,18 @@
                             <label for="city" class="form-label"><strong>City</strong></label>
                             <input type="text" class="form-control" id="city">
                         </div>
-                        <div class="mb-3 col-3">
-                            <label for="state" class="form-label"><strong>State</strong></label>
-                            <select class="form-control" name="state" id="state" >
-                                <option value="pick">Pick a state</option>
-                                <option value="Columbia">Columbia</option>
+                        <div class="address col-6">
+                            <div class="mb-3 col-6 me-3">
+                                <label for="state" class="form-label"><strong>State</strong></label>
+                                <select class="form-control" name="state" id="state" >
+                                    <option value="pick">Pick a state</option>
+                                    <option value="Columbia">Columbia</option>
+                            </div>
+                            <div class="mb-3 col-6 pe-3">
+                                <label for="postalCode" class="form-label"><strong>Postal Code</strong></label>
+                                <input type="text" pattern="[0-9]*" class="form-control" id="postalCode">
+                            </div>
                         </div>
-                        <div class="mb-3 col-3">
-                            <label for="postalCode" class="form-label"><strong>Postal Code</strong></label>
-                            <input type="text" pattern="[0-9]*" class="form-control" id="postalCode">
-                        </div>
-
                         <div class="mb-3 col-6 form-check bank-cards">
                             <p><strong>We accept:</strong></p>
                             <div class="col-6 bg-secondary p-1 rounded">

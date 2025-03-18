@@ -50,7 +50,3 @@ form, .alert {
 input#amount.form-control {
   margin-left: 11px;
   }
-
-  .address {
-    display: flex;
-  }

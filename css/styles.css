@@ -13,10 +13,7 @@ background-color: black !important;
 .card-footer {
   display: inline;
 }
-/* * {
-	border: 1px dashed red;
-	min-height: 10px;
-} */
+
 .bank-cards {
   padding-left: calc(var(--bs-gutter-x)* .6) !important;
 }
@@ -50,3 +47,4 @@ form, .alert {
 input#amount.form-control {
   margin-left: 11px;
   }
+ 
